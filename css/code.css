@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    width: 30%;
+    height: auto;
+    background-color: #807878;
+    margin: 5% auto;
+
+    border: 5px double rgb(24, 0, 0);
+    border-radius: 15px;
+}
+
+h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 300%;
+    margin: 0px auto;
+    color: rgba(32, 2, 2, 0.438);
+    text-shadow: 2px 2px rgb(15, 1, 1);
+}
+
+input {
+    font-family: monospace;
+  font-weight: 900;
+    background-color: rgba(240, 233, 233, 0.657);
+    display: block;
+    width: 100%;
+    color: rgb(15, 1, 1);
+    height: 50px;
+    border-radius: 10px;
+    font-size: 150%;
+    padding: 10px 50px;
+    margin-bottom: 5px;
+    transition: all 0.75s ease;
+}
+
+input:focus {
+background-color: rgb(15, 1, 1);
+color: rgb(241, 221, 221);
+}
+
+div {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-areas: '. . . .' '. . . .' '. . . .' '. . . .' 
+    '. . . .' '. . . .' '. . delete delete' 'equalTo equalTo equalTo equalTo';
+justify-content: space-between;
+}
+sup.supscript {
+    font-size: 100%;
+}
+button {
+    background-color: rgb(15, 1, 1);
+    color: rgb(246, 162, 162);
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+button:hover {
+color: rgba(19, 18, 18, 0.801);
+background-color: rgba(185, 14, 14, 0.657);
+}
+button:nth-child(1){
+    background-color:rgba(240, 233, 233, 0.657);
+    color: rgb(22, 1, 1);
+}
+
+button:nth-last-child(1) {
+    grid-area: equalTo;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(105, 153, 8, 0.568);
+    color: black;
+    font-size: 200%;
+}
+button:nth-last-child(2) {
+    grid-area: delete;
+    background-color: rgb(124, 7, 7);
+}
+.b {
+padding-bottom: 15%;
+}
+@media screen and (max-width: 830px){
+   body{
+        width: 50%;
+   }
+}
+@media screen and (max-width: 520px){
+    body{
+         width: 70%;
+    }
+ }
+ @media screen and (max-width: 365px){
+    body{
+         width: 100%;
+    }
+ }
+ @media screen and (max-width: 250px){
+    h1{
+        font-size: 200%;
+    }
+ }
+ @media screen and (max-width: 180px){
+    h1{
+        font-size: 150%;
+    }
+ }
