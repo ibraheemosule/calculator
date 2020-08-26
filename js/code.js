@@ -234,7 +234,9 @@ const equalTo = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
   input.style.color = "rgb(246, 162, 162)";
 
-  if(input.value.includes("^") && (input.value.split('^').length-1) == 1){
+  if(input.value.includes("^") && (input.value.split('^').length-1) > 1){
+    input.value = "ERROR";
+  } else if(input.value.includes("^") && (input.value.split('^').length-1) == 1){
     let a = input.value;
   var c = a.substr(a.indexOf("^")+1);
   if(isNaN(c)==false && isNaN(this.b)==false){
