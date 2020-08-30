@@ -244,7 +244,6 @@ const equalTo = () => {
     let y = Number(this.b);
    let result = Math.pow(y, a);
    input.value = result;
-   document.location.reload();
   } else {
     input.value = "ERROR"
   };
