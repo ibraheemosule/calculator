@@ -6,7 +6,7 @@ const reset = () => {
   input.style.backgroundColor = "rgba(240, 233, 233, 0.657)"; 
   input.style.color = "rgb(246, 162, 162)";
 input.value = '';
-document.location.reload();
+input.style.backgroundColor = "rgba(240, 233, 233, 0.657)"
 };
 
 const sine = () => {
