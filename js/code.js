@@ -4,14 +4,14 @@ var button = document.getElementsByTagName("button");
 //BUTTON FUNCTIONS
 const reset = () => {
   input.style.backgroundColor = "rgba(240, 233, 233, 0.657)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 input.value = '';
 input.style.backgroundColor = "rgba(240, 233, 233, 0.657)"
 };
 
 const sine = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 let result = Math.sin(number * Math.PI / 180);
@@ -23,7 +23,7 @@ input.value = "Input a Number";
 
 const cosine = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 let result = Math.cos(number * Math.PI / 180);
@@ -35,7 +35,7 @@ input.value = "Input a Number";
 
 const tagent = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 let result = Math.tan(number * Math.PI / 180);
@@ -47,7 +47,7 @@ input.value = "Input a Number";
 
 const asine = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 let result = Math.asin(number) * 180 / Math.PI;
@@ -59,7 +59,7 @@ input.value = "Input a Number";
 
 const acosine = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 let result = Math.acos(number) * 180 / Math.PI;
@@ -71,7 +71,7 @@ input.value = "Input a Number";
 
 const atagent = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 let result = Math.atan(number) * 180 / Math.PI;
@@ -83,7 +83,7 @@ input.value = "Input a Number";
 
 const factorial = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let number = Number(input.value);
 function fac(n) {
@@ -102,7 +102,7 @@ function fac(n) {
 
 const powerOfTwo = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value)==false){
 let result = Math.pow(input.value, 2);
 input.value = result;
@@ -113,7 +113,7 @@ input.value = "Input a Number";
 
 const squareRoot = () =>{
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 if(isNaN(input.value) == false){
 let result = Math.sqrt(input.value);
 result = result.toString()
@@ -132,92 +132,92 @@ input.value = "Input a Number";
 const multiplication = () => {
   input.value += '*';
    input.style.backgroundColor = " rgb(15, 1, 1)"; 
-   input.style.color = "rgb(246, 162, 162)";
+   input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const nine = () => {
   input.value += "9";  
   input.style.backgroundColor = " rgb(15, 1, 1)";
-   input.style.color = "rgb(246, 162, 162)";
+   input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const eight = () =>{
   input.value += "8"; 
   input.style.backgroundColor = " rgb(15, 1, 1)";
-   input.style.color = "rgb(246, 162, 162)";
+   input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const seven = () => { input.value += "7"; 
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const division = () =>{ input.value += '/'; 
   input.style.backgroundColor = " rgb(15, 1, 1)";
-   input.style.color = "rgb(246, 162, 162)";
+   input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const six = () => { 
   input.value += "6";
    input.style.backgroundColor = " rgb(15, 1, 1)";
-    input.style.color = "rgb(246, 162, 162)";
+    input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const five = () => {
    input.value += "5"; 
      input.style.backgroundColor = " rgb(15, 1, 1)";
-      input.style.color = "rgb(246, 162, 162)";
+      input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 const four = () =>{
    input.value += "4"; 
      input.style.backgroundColor = " rgb(15, 1, 1)";
-      input.style.color = "rgb(246, 162, 162)";
+      input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 const subtraction = () =>{ 
   input.value += '-'; 
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const three = () =>{ 
   input.value += "3"; 
     input.style.backgroundColor = " rgb(15, 1, 1)";
-     input.style.color = "rgb(246, 162, 162)";
+     input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const two = () => {
   input.value += "2"; 
    input.style.backgroundColor = " rgb(15, 1, 1)";
-    input.style.color = "rgb(246, 162, 162)";
+    input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const one = () =>{
    input.value += "1";
      input.style.backgroundColor = " rgb(15, 1, 1)";
-      input.style.color = "rgb(246, 162, 162)";
+      input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const addition = () =>{
    input.value += '+'; 
     input.style.backgroundColor = " rgb(15, 1, 1)";
-     input.style.color = "rgb(246, 162, 162)";
+     input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const period = () =>{ 
   input.value += "."; 
    input.style.backgroundColor = " rgb(15, 1, 1)";
-    input.style.color = "rgb(246, 162, 162)";
+    input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const zero = () =>{ 
   input.value += "0"; 
    input.style.backgroundColor = " rgb(15, 1, 1)";
-    input.style.color = "rgb(246, 162, 162)";
+    input.style.color = "rgba(240, 233, 233, 0.657)";
 }
 
 const powerOfn = () => {
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
   input.value += "^";
   var a = input.value;
   b = a.substr(0, a.indexOf("^"));
@@ -232,7 +232,7 @@ const del = () =>{
 const equalTo = () => {
 
   input.style.backgroundColor = " rgb(15, 1, 1)"; 
-  input.style.color = "rgb(246, 162, 162)";
+  input.style.color = "rgba(240, 233, 233, 0.657)";
 
   if(input.value.includes("^") && (input.value.split('^').length-1) > 1){
     input.value = "ERROR";
